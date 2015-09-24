@@ -14,6 +14,11 @@ namespace cis237InClass2
 
             Console.WriteLine("The answer to 5! is: ");
             Console.WriteLine(factorial.Calculate(5));
+
+            Console.WriteLine("\n*******************************\n");
+            Hanoi hanoi = new Hanoi();
+
+            hanoi.moveDisc(20, 'A', 'B', 'C');
         }
     }
 }
